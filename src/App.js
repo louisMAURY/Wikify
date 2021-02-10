@@ -1,10 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import Dropdown from './components/Dropdown'
 
-function App() {
-  return (
 
-  );
+const App = () =>{
+  return(
+    <div>
+    <Dropdown />
+  </div>
+
+  )
+
 }
 
-export default App;
+export default App
